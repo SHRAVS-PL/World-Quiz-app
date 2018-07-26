@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width" initial-scale=1">
+  <meta name="description" content="Lets check how much do you know about the world?">
+  <title>World Quiz</title>
+  <link href="https://fonts.googleapis.com/css?family=Merienda" rel="stylesheet">  
+  <link href="index.css" rel="stylesheet" type="text/css" />
+ </head>
+ <body>
+  <header role="banner">
+   <h1>World Quiz</h1>
+   <ul class="status">
+    <li>Question : <span class="questionStatus quizStatus">0/10</span></li>
+    <li> Score : <span class="score quizStatus">0/10</span></li>
+   </ul>
+  </header>
+  <div class="row">
+  <div class="col-6">
+   <main class="mainPage" role="main">
+    <div class="start">
+     <p class="welcome">How well do you know the World?</p>
+     <button class = "button js-start-quiz" type="submit">Start</button>
+    </div>
+   <div class="quiz">
+    <form class="js-form" role="form">
+     <div class="question js-question-list"></div>
+     <div class="result js-result"></div>
+     <div class="feedback js-finalScore"></div>
+    </form>
+   </div>
+    </main>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="dataStore.js"></script>
+    <script src="index.js"></script>
+ </body>
+</html>
