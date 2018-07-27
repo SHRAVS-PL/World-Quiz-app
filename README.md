@@ -1,5 +1,6 @@
 ## Thinkful assignment: World Quiz App
-This is a quiz app which has a list of questions related to various parts of the world.
+World quiz application has a list of questions about different parts of the world.
+
 
 ## Technologies used
 Developed using 
